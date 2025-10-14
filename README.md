@@ -3,6 +3,10 @@
 This repository contains an implementation of a **K-Nearest Neighbors (KNN)** classifier for the **CIFAR-10 image dataset**.  
 The goal is to evaluate classification performance under different data split strategies and to analyze how the hyperparameter *k* affects model accuracy.
 
+## 🧾 Dataset
+
+This project uses the **CIFAR-10 dataset**.
+After downloading, organize as Project Structure
 
 ## 📂 Project Structure
 
@@ -14,7 +18,7 @@ knnassignment/
 │ ├─ test/ # Test images (id.png)
 │ ├─ trainLabels.csv # Image labels
 │ └─ sampleSubmission.csv
-├─ results/ # Output metrics and plots
+├─ results/ # Output metrics and plots. Files below are generated after running the scripts.
 │ ├─ metrics_train_test.json
 │ ├─ metrics_train_val_test.json
 │ ├─ cv_accuracy_vs_k.png
