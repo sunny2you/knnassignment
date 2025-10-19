@@ -92,16 +92,16 @@ Possible improvements:
 
 ## 6. Reproducibility
 
-# 1. Basic train/test experiment
+### 1. Basic train/test experiment
 python src/knn.py --mode train_test --k 5
 
-# 2. Hyperparameter tuning
+### 2. Hyperparameter tuning
 python src/knn.py --mode train_val_test --k_min 1 --k_max 29 --k_step 2
 
-# 3. 5-fold cross-validation
+### 3. 5-fold cross-validation
 python src/knn.py --mode cv --k_min 1 --k_max 29 --k_step 2
 
-# 4. Final submission
+### 4. Final submission
 python src/knn.py --mode submit --k 1
 Environment
 
