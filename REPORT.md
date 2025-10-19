@@ -1,4 +1,4 @@
-```
+
 # CIFAR-10 Classification with K-Nearest Neighbors (KNN)
 
 This project applies a K-Nearest Neighbors (KNN) classifier to the CIFAR-10 image dataset.  
@@ -124,4 +124,4 @@ Matplotlib 3.7.5
 This project showed that feature design and preprocessing can influence image classification more than the model itself.
 Although KNN is simple, its performance depends heavily on how input data are represented.
 Cross-validation also highlighted how different splits can affect results, reinforcing the importance of reproducible experimentation.
-```
+
